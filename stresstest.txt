@@ -1,0 +1,3 @@
+relationships = LoadCSV{/Users/jdanninger/Documents/GitHub/Large-CSV-Querier/OffshoreData/relationships.csv}
+entities = LoadCSV{/Users/jdanninger/Documents/GitHub/Large-CSV-Querier/OffshoreData/nodes-entities.csv}
+megajoin = HashJoin{relationships, entities, node_id}

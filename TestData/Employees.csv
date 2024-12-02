@@ -1,0 +1,9 @@
+Employee_Id,Name,Email,Salary,Department_id
+1,John Doe,jodoe@email.com,100000,1
+2,Jane Doe,jadoe@email.com,120000,1
+3,John Smith,josmith@email.com,110000,2
+4,Jane Smith,jasmith@email.com,130000,2
+5,John Brown,jobrown@email.com,90000,3
+6,Jane Brown,jabrown@email.com,95000,3
+7,John White,jowhite@emai.com,80000,4
+8,Jane White,jawhite@email.com,85000,4

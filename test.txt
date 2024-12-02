@@ -1,0 +1,4 @@
+test = LoadCSV{/Users/jdanninger/Documents/GitHub/Large-CSV-Querier/TestData/100.csv}
+test = Project{test, Region, Country, Total Profit}
+test = Select{test, int(row["Total Profit"]) > 100000}
+output = Export{test, /Users/jdanninger/Desktop/output.csv}

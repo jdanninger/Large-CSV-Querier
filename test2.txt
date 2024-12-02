@@ -1,0 +1,3 @@
+employees = LoadCSV(/Users/jdanninger/Documents/GitHub/Large-CSV-Querier/TestData/Employees.csv)
+department = LoadCSV(/Users/jdanninger/Documents/GitHub/Large-CSV-Querier/TestData/Departments.csv)
+merged_table = HashJoin(employees, department, Department_id)
